@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;  
+    background-color: #333; 
+    padding: 10px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#navbar a:hover {
+    background-color: #555;
+}
+
+
+.gh {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gh:hover {
+    background-color: #575757;
+}
+
+
+#welcome-section {
+    height: 100vh;
+    background-color: #283273;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome-section h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#welcome-section p {
+    font-size: 1.5em;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    cursor:pointer;
+}
+
+
+.skill {
+    margin: 10px 0;
+}
+
+.skill p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.skill span {
+    float: right;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.webdev-progress{
+    height: 100%;
+    width: 50%; 
+    background: blue; 
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
+.java-progress{
+    height: 100%;
+    width: 60%; 
+    background: blue; 
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.progress {
+    height: 100%;
+    width: 70%; 
+    background: blue; 
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#cert {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+#cert h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.certi-title {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.certi-title h3 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.certi-title p {
+    font-size: 1.2em;
+}
+
+.certi-title a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.certi-title a:hover {
+    background-color: #45a049;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+    }
+
+    #welcome-section h1 {
+        font-size: 2em;
+    }
+
+    #welcome-section p {
+        font-size: 1.2em;
+    }
+
+    #cert h2 {
+        font-size: 2em;
+    }
+
+    .certi-tile {
+        padding: 15px;
+    }
+}
